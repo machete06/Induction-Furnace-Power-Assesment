@@ -50,7 +50,7 @@ with col2:
     st.metric(label="Energy absorbed by metal (Q)", value=f"{Q:.2f} KWh")
     st.metric(label="Efficiency of Furnace", value=f"{efficiency:.2f} %")
     st.metric(label="Cost of operating furnace", value=f"{total_cost:.2f} ₹")
-    st.image("C:\\Users\\Rancan\\Pictures\\Screenshots\\Screenshot 2024-09-29 215700.png", caption="Induction furnace losses", use_column_width=True)
+    st.image("https://github.com/machete06/Induction-Furnace-Power-Assesment/blob/main/img.png", caption="Induction furnace losses", use_column_width=True)
    
 with col3:
     st.subheader('Graphs')
